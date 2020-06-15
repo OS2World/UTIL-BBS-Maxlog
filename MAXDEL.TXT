@@ -1,0 +1,16 @@
+MAXDEL is a very simple program used to purge individual file names from
+the MAXLOG.DAT file.  The program will accept up to 10 file names on the
+command line. These file names will be deleted from the log.
+
+MAXDEL does NOT accept wildcards.  (sorry, please send wildcard parsing code.)
+
+For example, to delete all .QWK mail packets from the OS2 Shareware BBS
+data file, I would enter:
+
+MAXDEL OS2SHARE.QWK OS2SHARE.QW1 OS2SHARE.QW2 OS2SHARE.QW3
+
+The program is useful for cleaning out files which you don't want to
+have in your counts and bulletins.
+
+Pete
+

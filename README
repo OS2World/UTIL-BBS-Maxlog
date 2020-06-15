@@ -1,0 +1,15 @@
+This update to Maxlog (1.32) includes a few minor fixes and enhancements.
+
+It now ignores all files with ".qw?" extentions to eliminate the .QWK
+packets from the counts and bulletins.  It also ignores all files with
+.TIC extentions.
+
+There is a bug fix for a problem created when the total number of different
+files in the data file exceeded 3000.
+
+Another bug fix is in here for a problem when the total number of bytes
+downloaded during the summary period exceeds 2 gigabytes.
+
+Pete
+
+

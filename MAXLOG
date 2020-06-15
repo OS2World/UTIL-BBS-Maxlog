@@ -1,0 +1,6 @@
+maxlog.obj: maxlog.c maxlog
+   cl /c /AL /W4 /G2 maxlog.c
+
+maxlog.exe: maxlog.obj
+   link maxlog;
+   markexe windowcompat maxlog.exe

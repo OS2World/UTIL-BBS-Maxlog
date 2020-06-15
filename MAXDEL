@@ -1,0 +1,3 @@
+maxdel.exe: maxdel.c
+   cl /AL /W4 /G2 maxdel.c
+   markexe windowcompat maxdel.exe
